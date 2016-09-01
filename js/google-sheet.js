@@ -23,7 +23,7 @@ $("#form").submit(function(event){
 
     // Fire off the request
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbx7sfbYkzSSifBkzZkp4MDdV9OhhWnzHv9i3m85Yz00jEJ59jg/exec",
+        url: "https://script.google.com/macros/s/AKfycbyogzT9ihMXNDr70XyJIJ6AQCx699JAPBvanEJNkFOBkKSmMjQ/exec",
         type: "post",
         data: serializedData
     });
