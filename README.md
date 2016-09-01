@@ -18,10 +18,10 @@ Proof of concept of a bookmarklet script that interacts with Google Docs to stor
 
 
 ## Google Sheets Link
-- [ Google Sheets ](https://docs.google.com/spreadsheets/d/1NTlfje4H-K3KyvBvUDqIA0z7pz_VQpijJV5NcbwX1Rs/edit?usp=sharing)
+- [ Google Sheets ](https://docs.google.com/spreadsheets/d/1WFznNmTEFyjSrd5fXDmDb0HSnoIWSpiQY59-PX6KexA/edit?usp=sharing)
 
 ## Bookmarklet URL
-Page is hosted: http://opendatakosovo.github.io/bookmarklet-concept/.
+Page is hosted: https://seamus-code.github.io/bookmarklet-concept/.
 
 Powered by Jekyll and hosted in Github pages.
 
