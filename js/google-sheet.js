@@ -21,12 +21,16 @@ $("#form").submit(function(event){
     // Note: we disable elements AFTER the form data has been serialized. Disabled form elements will not be serialized.
     $inputs.prop("disabled", true);
 
+
+    
     // Fire off the request
     request = $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbyogzT9ihMXNDr70XyJIJ6AQCx699JAPBvanEJNkFOBkKSmMjQ/exec",
         type: "post",
+        url: "https://script.google.com/macros/s/AKfycbyogzT9ihMXNDr70XyJIJ6AQCx699JAPBvanEJNkFOBkKSmMjQ/exec",
         data: serializedData
     });
+
+ 
 
     // Callback handler that will be called on success
     request.done(function (response, textStatus, jqXHR){
